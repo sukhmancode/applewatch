@@ -22,28 +22,28 @@
         
     }
     .headings{
-        font-size: 30px;
-        margin-top: 100px;
+        font-size: 4rem;
+        margin-top: 10rem;
     }
     .logo img{
-        width: 100px;
-        height: 100px;
+        width: 10rem;
+        height: 10rem;
     }
     .search-menu input{
-        font-size: 30px;
+        font-size: 3rem;
     }
     .watch-img img{
         margin-top: 5rem;
-        width: 312px;
-        height: 277px;
+        width: 31.2rem;
+        height: 27.7rem;
     }
     .small-watch{
         display:none;
     }
     .buy-now button{
-        width: 151px;
-        height: 58px;
-        font-size: 30px;
+        width: 15.1rem;
+        height: 5.8rem;
+        font-size: 3rem;
     }
     .watch-img{
         flex-direction: row;
@@ -69,21 +69,21 @@
         display: none;
     }
     .search-menu img{
-        width: 40px;
-        height: 40px;
+        width: 4rem;
+        height: 4rem;
 }
 .white-section{
    
     border-radius:88px;
     height:110vh;
-    width:60px;
+    width:6rem;
     position: absolute;
     bottom:-35rem;
     
    
     flex-direction: column;
    rotate: 270deg;
-   translate: 420px;
+   translate: 350px;
   
 }
 
@@ -96,7 +96,7 @@
     }
 .container{
     width: 70%;
-}    
+}  
 
 }
 @media screen and (max-width:400px){
@@ -108,8 +108,8 @@
         width: 90%;
     }
     .white-section{
-       
-        bottom:-36rem;
+      height:100vh;
+    
     }
     
 }
