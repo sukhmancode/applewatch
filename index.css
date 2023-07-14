@@ -1,0 +1,240 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Poppins:wght@300;400;700&display=swap');
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+   
+    
+}
+body{
+    font-family: 'Poppins',sans-serif;
+   
+   
+}
+html{
+    font-size: 62.5%;
+}
+
+.full-width{
+   
+    position: relative;
+    display: flex ;
+    flex-direction: column;
+    right:-10rem; 
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    width: 120rem;
+    height: 110vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+.logo{
+    width: fit-content;
+    transform: translateY(-7px);
+}
+.logo img{
+    height: 6rem;
+    width: 6rem;
+ padding: 1rem;
+}
+.nav-items{
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-top:1rem;
+    display: flex;
+    justify-content: space-between;
+    gap:60px;
+    color:#fff;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+span:nth-child(4){
+background-color: #fff;
+color: #B6CCDA;
+font-weight: 600;
+border-radius: 3.6rem;
+padding:1px 20px;
+
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+  
+}
+.watch-container{
+    display: flex;
+    height:100px;
+    width: 100px;
+}
+.search-menu{
+    display: flex;
+    align-items: center;
+}
+.search-menu img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+left:-30px;
+}
+.search-menu input{
+    font-size: 16px;
+    width:260px;
+    padding:5px;
+    border-radius: 36px;
+    background-color: #B6CCDA;
+    opacity:0.8;
+ 
+}
+::placeholder{
+    color: #fff;
+    font-weight: 300;
+}
+.cart-icon img{
+    width: 24px;
+    height: 24px;
+    
+    margin-left: 40px;
+}
+.cart-icon{
+  cursor: pointer;
+    border-left:2px solid rgba(2,2,2,0.1);
+}
+.main-container{
+    display: flex;
+
+    width: 1140px;
+    height: 100%;
+    align-items: center;
+}
+.headings{
+    width: 700px;
+    height: 258px;
+}
+.headings h1{
+    padding:2rem 6rem;
+    margin:-40px;
+}
+.headings h1:nth-child(1){
+    color: #fff;
+    font-size: 6rem;
+ 
+}
+.watch-img img{
+    width: 40rem;
+    height: 40rem;
+
+}
+.headings h1:nth-child(2){
+    font-weight: 300;
+        color: #fff;
+        font-size:5rem;
+}
+.headings h1:nth-child(3){
+    font-weight: 300;
+        color: #fff;
+        font-size: 5rem;
+}
+
+
+.buy-now{
+    margin-top: 5rem ;
+    padding:2rem 3rem;
+    
+}
+.buy-now button{
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 3.6rem;
+    width: 250px;
+    font-weight: 600;
+    height: 70px;
+    background-color: #B6CCDA;
+    color: #fff;
+    outline: 0;
+    border: 2px solid #fff;
+    transition: all 0.2s ease-in;
+}
+.buy-now button:hover{
+    opacity: 0.5;
+}
+.small-watch{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-watch img{
+    width: 131px;
+    height: 98px;
+    
+}
+.black-color{
+    border:1px solid #fff;
+    width:20px;
+    height: 20px;
+    background-color: #404354;
+    border-radius: 50%;
+}
+.bg-color{
+    border:3px solid #fff;
+    width:30px;
+    height: 30px;
+    background-color: #B6CCDA;
+    border-radius: 50%;
+
+}
+.sea-color{
+    border:1px solid #fff;
+    background-color:#58D7C4;
+    width:20px;
+    height: 20px;
+    
+    border-radius: 50%;
+
+}
+.color-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:4px;
+  
+    align-items: center;
+}
+.pink-color{
+    border:1px solid #fff;
+    background-color: #F2CEC6;
+    width:20px;
+    height: 20px;
+    
+    border-radius: 50%;
+}
+.nav-menu-icon{
+    margin-top: 20px;
+}
+.white-section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70px;
+border-radius: 80px;
+
+    left:-6rem;
+    position: absolute;
+    height:80vh;
+
+}
+.menu-icon{
+    transform: translateY(-50px);
+}
+.dot{
+    width:3px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 50%;
+}

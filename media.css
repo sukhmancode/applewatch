@@ -1,0 +1,99 @@
+@media screen and (max-width:767px) {
+    html{
+        font-size: 55%;
+    }
+
+    .nav-items{
+        display: none;
+    }
+    .full-width{
+       
+        width: fit-content;
+        height: fit-content;
+        border-radius: 36px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      
+    }
+    .main-container{
+        flex-direction: column;
+        width: 100%;
+        
+        
+    }
+    .headings{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    .search-menu input{
+        font-size: 30px;
+    }
+    .watch-img img{
+        margin-top: 5rem;
+        width: 312px;
+        height: 277px;
+    }
+    .small-watch{
+        display:none;
+    }
+    .buy-now button{
+        width: 151px;
+        height: 58px;
+        font-size: 30px;
+    }
+    .watch-img{
+        flex-direction: row;
+    }
+    .watch-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .color-section{
+        display: flex;
+        flex-direction: column;
+        transform: translate(250px,-200px);
+      
+        border: none;
+    }
+    .cart-icon img{
+    
+        width: 50px;
+        height: 50px;
+    }
+    .search-menu input{
+        display: none;
+    }
+    .search-menu img{
+        width: 40px;
+        height: 40px;
+}
+.white-section{
+   
+    border-radius:88px;
+    height:110vh;
+    width:60px;
+    position: absolute;
+    bottom:-35rem;
+    
+   
+    flex-direction: column;
+   rotate: 270deg;
+   translate: 420px;
+  
+}
+
+
+
+}
+@media screen and (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+.container{
+    width: 90%;
+}    
+}
