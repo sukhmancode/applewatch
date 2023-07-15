@@ -197,6 +197,15 @@ left:-3rem;
     border-radius: 50%;
 
 }
+.watch1:hover{
+    scale:1.2;
+}
+.watch2:hover{
+    scale:1.2;
+}
+.watch3:hover{
+    scale:1.2;
+}
 .color-section{
     display: flex;
     flex-direction: column;

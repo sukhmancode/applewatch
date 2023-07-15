@@ -1,6 +1,12 @@
 @media screen and (max-width:767px) {
     html{
         font-size: 55%;
+        width: 90%;
+    }
+    .logo img{
+        width: 2rem;
+        height: 2rem;
+        
     }
 
     .nav-items{
@@ -93,6 +99,7 @@
 @media screen and (max-width:450px){
     html{
         font-size: 55%;
+        width:80%;
     }
 .container{
     width: 70%;
@@ -102,6 +109,7 @@
 @media screen and (max-width:400px){
     html{
         font-size: 50%;
+        width:70%;
     }
     .container
     {
