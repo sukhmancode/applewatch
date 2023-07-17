@@ -8,7 +8,7 @@
     
     html{
         font-size: 55%;
-        width: 90%;
+        width: 100%;
         width: fit-content;
     }
     .logo img{
@@ -41,8 +41,12 @@
         width: fit-content;
     }
     .logo img{
-        width: 10rem;
-        height: 10rem;
+        
+        width:9rem;
+        height:9rem;
+    }
+    .logo{
+        padding:3rem 2rem;
     }
     .search-menu input{
         font-size: 3rem;
@@ -107,7 +111,7 @@
     
 }
 .social-icons img{
-    rotate: 180deg;
+    rotate: 90deg;
 }
 
 
@@ -118,16 +122,22 @@
         width:100%;
         
     }
-.container{
-    width: 100%;
-}  
+    .logo img{
+        
+        width:8rem;
+        height:8rem;
+    }
+    .logo{
+        padding:40px 10px;
+    }
+ 
 .watch-img img{
-    width: 200px;
+    width: fit-content;
     height: 200px;
   transform: translateY(50px);
    }
    .color-section{
-    transform: translateY(1px);
+    transform: translateY(-10px);
    }
   
 
@@ -141,17 +151,15 @@
     
     .white-section{
         bottom:-20rem;
-    }
-}
-@media screen and (max-height:400px){
-    .white-section{
-        height: fit-content;
-        width: 50vw;
-        position: absolute;
-        bottom:-12rem;
-        
-
-    }
- 
+       
+        width: 100%;
     
+    }
+   .watch-img img {
+    transform: translate(100px,50px);
+    width: 100%;
+   }
+   .color-section{
+    transform: translate(100px,-50px);
+   }
 }
