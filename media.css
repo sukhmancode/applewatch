@@ -91,6 +91,9 @@
         width: 4rem;
         height: 4rem;
 }
+.page-indicator{
+    display: none;
+}
 .white-section{
    
     border-radius:88px;
