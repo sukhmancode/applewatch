@@ -91,13 +91,15 @@
    
     border-radius:88px;
     height:fit-content;
-    width:6rem;
+    width:100%;
     position: absolute;
-    bottom:-15rem;
+    bottom: -18rem;
+    align-items: left;
 
     flex-direction: column;
    rotate: 270deg;
-   translate: 350px;
+   translate: 100px;
+   gap:100px;
   
 }
 .menu-icon img{
@@ -127,6 +129,7 @@
    .color-section{
     transform: translateY(1px);
    }
+  
 
 }
 @media screen and (max-width:400px){
@@ -136,7 +139,9 @@
     }
    
     
-    
+    .white-section{
+        bottom:-20rem;
+    }
 }
 @media screen and (max-height:400px){
     .white-section{
