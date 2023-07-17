@@ -1,15 +1,16 @@
-@media screen and  (max-width:1024px){
+@media screen and  (max-width:1224px){
     .full-width{
         height: fit-content;
     }
     
+    
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     
     html{
         font-size: 55%;
         width: 100%;
-        width: fit-content;
+        
     }
     .logo img{
         width: 2rem;
@@ -23,9 +24,9 @@
     .full-width{
         translate:-70px;
        
-        width: fit-content;
+        width: 90%;
         height: fit-content;
-        border-radius: 36px;
+        border-radius: 9px;
       
       
     }
@@ -96,22 +97,27 @@
 }
 .white-section{
    
-    border-radius:88px;
+   display: flex;
+    border-radius: 0px 8px 0px 8px;
     height:fit-content;
-    width:100%;
+    width:10%;
+    left:20rem;
     position: absolute;
-    bottom: -18rem;
-    align-items: left;
-
+    bottom: -25rem;
     flex-direction: column;
    rotate: 270deg;
-   translate: 100px;
-   gap:100px;
+   background-color: #fff;
+   justify-content: space-around;
+   gap: 200px;
   
 }
 .menu-icon img{
     rotate: 90deg;
     
+}
+.menu-icon{
+    transform: translateY(0x);
+    cursor: pointer;
 }
 .social-icons img{
     rotate: 90deg;
@@ -141,22 +147,16 @@
    }
    .color-section{
     transform: translateY(-10px);
+   }.white-section{
+    bottom:-23rem;
+   gap: 150px;
    }
-  
 
 }
 @media screen and (max-width:400px){
     html{
         font-size: 50%;
         width:100%;
-    }
-   
-    
-    .white-section{
-        bottom:-20rem;
-       
-        width: 100%;
-    
     }
    .watch-img img {
     transform: translate(100px,50px);
@@ -166,3 +166,4 @@
     transform: translate(100px,-50px);
    }
 }
+
