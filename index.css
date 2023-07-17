@@ -26,7 +26,7 @@ html{
     right:-10rem; 
     background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
     width: 120rem;
-    height: 110vh;
+    height: 100vh;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
    
@@ -238,8 +238,12 @@ border-radius: 80px;
     height:80vh;
 
 }
+.social-icons{
+    cursor: pointer;
+}
 .menu-icon{
-    transform: translateY(-50px);
+    transform: translateY(-80px);
+    cursor: pointer;
 }
 .dot{
     width:3px;

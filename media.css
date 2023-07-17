@@ -1,7 +1,15 @@
+@media screen and  (max-width:1024px){
+    .full-width{
+        height: fit-content;
+    }
+    
+}
 @media screen and (max-width:767px) {
+    
     html{
         font-size: 55%;
         width: 90%;
+        width: fit-content;
     }
     .logo img{
         width: 2rem;
@@ -13,12 +21,12 @@
         display: none;
     }
     .full-width{
+        translate:-70px;
        
         width: fit-content;
         height: fit-content;
         border-radius: 36px;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+      
       
     }
     .main-container{
@@ -30,6 +38,7 @@
     .headings{
         font-size: 4rem;
         margin-top: 10rem;
+        width: fit-content;
     }
     .logo img{
         width: 10rem;
@@ -53,7 +62,7 @@
     }
     .watch-img{
         flex-direction: row;
-        transform: translateX(-170px);
+        transform: translate(-130px,120px);
     }
     .watch-container{
         display: flex;
@@ -62,7 +71,7 @@
     .color-section{
         display: flex;
         flex-direction: column;
-        transform: translate(0px,-200px);
+        transform: translate(50px,-100px);
       
         border: none;
     }
@@ -81,43 +90,63 @@
 .white-section{
    
     border-radius:88px;
-    height:110vh;
+    height:fit-content;
     width:6rem;
     position: absolute;
-    bottom:-35rem;
-    
-   
+    bottom:-15rem;
+
     flex-direction: column;
    rotate: 270deg;
    translate: 350px;
   
 }
-
+.menu-icon img{
+    rotate: 90deg;
+    
+}
+.social-icons img{
+    rotate: 180deg;
+}
 
 
 }
 @media screen and (max-width:450px){
     html{
         font-size: 55%;
-        width:80%;
+        width:100%;
+        
     }
 .container{
-    width: 70%;
+    width: 100%;
 }  
+.watch-img img{
+    width: 200px;
+    height: 200px;
+  transform: translateY(50px);
+   }
+   .color-section{
+    transform: translateY(1px);
+   }
 
 }
 @media screen and (max-width:400px){
     html{
         font-size: 50%;
-        width:70%;
+        width:100%;
     }
-    .container
-    {
-        width: 90%;
-    }
-    .white-section{
-      height:100vh;
+   
     
+    
+}
+@media screen and (max-height:400px){
+    .white-section{
+        height: fit-content;
+        width: 50vw;
+        position: absolute;
+        bottom:-12rem;
+        
+
     }
+ 
     
 }
