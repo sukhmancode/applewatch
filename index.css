@@ -142,10 +142,20 @@ left:-3rem;
 }
 
 
-.buy-now{
+.buy-now,.page-indicator{
     margin-top: 3rem ;
     padding:2rem 3rem;
     
+}
+.page-indicator{
+    
+    margin-top: 1rem ;
+    padding:2rem 3.5rem;
+    cursor: pointer;
+    
+}
+.page-indicator:hover{
+    transform: translateX(10px);
 }
 .buy-now button{
     cursor: pointer;
