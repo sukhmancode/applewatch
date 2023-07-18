@@ -3,31 +3,37 @@
     .full-width{
         
         width:100%;
+        height: fit-content;
     }
 }
     
     @media screen and (max-width:1240px){
         .full-width{
             width: 100%;
+            height: fit-content;
         }
         
     }
     @media screen and (max-width:1100px){
         .full-width{
             width:fit-content;
+            height: fit-content;
         }
         
     }
 
 
-
+   
 @media screen and (max-width:768px) {
+    
     
     html{
         font-size: 55%;
         width: 100%;
         
     }
+
+   
     .logo img{
         width: 2rem;
         height: 2rem;
@@ -38,9 +44,9 @@
         display: none;
     }
     .full-width{
-        translate:-70px;
+        translate:-90px;
        
-        width: 90%;
+        width: 130%;
         height: fit-content;
         border-radius: 9px;
       
@@ -162,7 +168,7 @@
   transform: translate(20px,50px);
    }
    .color-section{
-    transform: translateY(-10px);
+    transform: translate(50px,-10px);
    }.white-section{
     bottom:-23rem;
    gap: 150px;
@@ -172,7 +178,7 @@
 @media screen and (max-width:400px){
     html{
         font-size: 50%;
-        width:100%;
+        width:90%;
     }
    .watch-img img {
     transform: translate(110px,50px);
