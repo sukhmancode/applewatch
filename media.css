@@ -1,8 +1,8 @@
 
     
-    @media screen and (max-width:1240px){
+    @media screen and (max-width:1024px){
         .full-width{
-            width: 100%;
+            width: 130%;
             height: fit-content;
         }
         
@@ -143,7 +143,9 @@
         padding:0;
         margin: 0;
         overflow-x: hidden;
+        
        }
+      
    
     .logo img{
         
@@ -152,6 +154,9 @@
     }
     .logo{
         padding:40px 10px;
+    }
+    .headings h1{
+        font-size: 2rem;
     }
  
 .watch-img img{
@@ -168,19 +173,13 @@
 
 }
 @media screen and (max-width:400px){
-    html,body{
-        height:100%;
-        width: 100%;
-        padding:0;
-        margin: 0;
-        overflow-x: hidden;
-       }
-  .headings h1{
-    font-size: 1rem;
-  }
+    
+       
+  
    .watch-img img {
-    transform: translate(10px,90px);
+    transform: translate(20px,90px);
     width: 60%;
+    
    }
  
 }

@@ -26,7 +26,7 @@ html{
     flex-direction: column;
     right:-10rem; 
     background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
-    width: 100%;
+    width: 100vw;
     height: 100vh;
    border-radius: 3rem;
    
@@ -281,3 +281,192 @@ justify-content: space-between;
     background-color: #fff;
     border-radius: 50%;
 }
+
+    
+@media screen and (max-width:1240px){
+    .full-width{
+        width: 100%;
+        height: fit-content;
+    }
+    
+}
+
+
+
+@media screen and (max-width:768px) {
+html,body{
+height:100%;
+width: 100%;
+padding:0;
+margin: 0;
+overflow-x: hidden;
+}
+.full-width{
+    width: 90%;
+}
+
+.headings h1{
+    color: brown;
+   }
+
+
+.logo img{
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+.nav-items{
+    display: none;
+}
+.full-width{
+  
+   transform: translateX(-100px);
+    width: 100%;
+    height: fit-content;
+    border-radius: 9px;
+  
+  
+}
+.main-container{
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+.headings{
+    font-size: 4rem;
+    margin-top: 10rem;
+    width: 100%;
+}
+.logo img{
+    
+    width:9rem;
+    height:9rem;
+}
+.logo{
+    padding:3rem 2rem;
+}
+.search-menu input{
+    font-size: 3rem;
+}
+.watch-img img{
+    margin-top: 5rem;
+    width: 31.2rem;
+    height: 27.7rem;
+}
+.small-watch{
+    display:none;
+}
+.buy-now button{
+    width: 15.1rem;
+    height: 5.8rem;
+    font-size: 3rem;
+}
+.watch-img{
+    flex-direction: row;
+    transform: translate(-80px,120px);
+}
+.watch-container{
+    display: flex;
+    flex-direction: row;
+}
+.color-section{
+    display: flex;
+    flex-direction: column;
+    transform: translate(50px,-100px);
+  
+    border: none;
+}
+.cart-icon img{
+
+    width: 50px;
+    height: 50px;
+}
+.search-menu input{
+    display: none;
+}
+.search-menu img{
+    width: 4rem;
+    height: 4rem;
+}
+.page-indicator{
+display: none;
+}
+.white-section{
+
+display: flex;
+border-radius: 0px 8px 0px 8px;
+height:fit-content;
+width:10%;
+left:20rem;
+position: absolute;
+bottom: -25rem;
+flex-direction: column;
+rotate: 270deg;
+background-color: #fff;
+justify-content: space-around;
+gap: 200px;
+
+}
+.menu-icon img{
+rotate: 90deg;
+
+}
+.menu-icon{
+transform: translateY(0x);
+cursor: pointer;
+}
+.social-icons img{
+rotate: 90deg;
+}
+
+
+}
+@media screen and (max-width:450px){
+html,body{
+    height:100%;
+    width: 100%;
+    padding:0;
+    margin: 0;
+    overflow-x: hidden;
+    
+   }
+  
+
+.logo img{
+    
+    width:8rem;
+    height:8rem;
+}
+.logo{
+    padding:40px 10px;
+}
+.headings h1{
+    font-size: 2rem;
+}
+
+.watch-img img{
+width: fit-content;
+height: 200px;
+transform: translate(20px,40px);
+}
+.color-section{
+transform: translate(50px,-10px);
+}.white-section{
+bottom:-23rem;
+gap: 150px;
+}
+
+}
+@media screen and (max-width:400px){
+
+
+.watch-img img {
+transform: translate(20px,90px);
+width: 60%;
+
+}
+
+}
+
