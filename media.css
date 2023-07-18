@@ -1,9 +1,16 @@
-@media screen and  (max-width:1224px){
+@media screen and (max-width:1440px) {
+
     .full-width{
-        height: fit-content;
+        
+        width:100%;
     }
     
-    
+    @media screen and (max-width:1240px){
+        .full-width{
+            width: 100%;
+        }
+        
+    }
 }
 @media screen and (max-width:768px) {
     
@@ -67,7 +74,7 @@
     }
     .watch-img{
         flex-direction: row;
-        transform: translate(-130px,120px);
+        transform: translate(-80px,120px);
     }
     .watch-container{
         display: flex;
@@ -143,7 +150,7 @@
 .watch-img img{
     width: fit-content;
     height: 200px;
-  transform: translateY(50px);
+  transform: translate(20px,50px);
    }
    .color-section{
     transform: translateY(-10px);
@@ -159,7 +166,7 @@
         width:100%;
     }
    .watch-img img {
-    transform: translate(100px,50px);
+    transform: translate(110px,50px);
     width: 60%;
    }
    .color-section{
