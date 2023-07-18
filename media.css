@@ -1,11 +1,4 @@
-@media screen and (max-width:1440px) {
 
-    .full-width{
-        
-        width:100%;
-        height: fit-content;
-    }
-}
     
     @media screen and (max-width:1240px){
         .full-width{
@@ -14,23 +7,19 @@
         }
         
     }
-    @media screen and (max-width:1100px){
-        .full-width{
-            width:fit-content;
-            height: fit-content;
-        }
-        
-    }
 
 
    
 @media screen and (max-width:768px) {
-    
-    
-    html{
-        font-size: 55%;
-        width: 100%;
-        
+   html,body{
+    height:100%;
+    width: 100%;
+    padding:0;
+    margin: 0;
+    overflow-x: hidden;
+   }
+    .full-width{
+        width: 90%;
     }
 
    
@@ -44,9 +33,9 @@
         display: none;
     }
     .full-width{
-        translate:-90px;
-       
-        width: 130%;
+      
+       transform: translateX(-100px);
+        width: 100%;
         height: fit-content;
         border-radius: 9px;
       
@@ -61,7 +50,7 @@
     .headings{
         font-size: 4rem;
         margin-top: 10rem;
-        width: fit-content;
+        width: 100%;
     }
     .logo img{
         
@@ -148,11 +137,14 @@
 
 }
 @media screen and (max-width:450px){
-    html{
-        font-size: 55%;
-        width:100%;
-        
-    }
+    html,body{
+        height:100%;
+        width: 100%;
+        padding:0;
+        margin: 0;
+        overflow-x: hidden;
+       }
+   
     .logo img{
         
         width:8rem;
@@ -165,7 +157,7 @@
 .watch-img img{
     width: fit-content;
     height: 200px;
-  transform: translate(20px,50px);
+  transform: translate(20px,40px);
    }
    .color-section{
     transform: translate(50px,-10px);
@@ -176,16 +168,20 @@
 
 }
 @media screen and (max-width:400px){
-    html{
-        font-size: 50%;
-        width:90%;
-    }
+    html,body{
+        height:100%;
+        width: 100%;
+        padding:0;
+        margin: 0;
+        overflow-x: hidden;
+       }
+  .headings h1{
+    font-size: 1rem;
+  }
    .watch-img img {
-    transform: translate(110px,50px);
+    transform: translate(10px,90px);
     width: 60%;
    }
-   .color-section{
-    transform: translate(100px,-50px);
-   }
+ 
 }
 

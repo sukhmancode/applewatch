@@ -22,13 +22,13 @@ html{
 .full-width{
    
     position: relative;
-    display: flex ;
+    display: flex;
     flex-direction: column;
     right:-10rem; 
     background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
-    width: 124rem;
+    width: 100%;
     height: 100vh;
-   border-radius: 1rem;
+   border-radius: 3rem;
    
 }
 .logo{
