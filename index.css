@@ -26,7 +26,7 @@ html{
     flex-direction: column;
     right:-10rem; 
     background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
-    width: 100vw;
+    width: 92.5vw;
     height: 100vh;
    border-radius: 3rem;
    
@@ -305,9 +305,7 @@ overflow-x: hidden;
     width: 90%;
 }
 
-.headings h1{
-    color: brown;
-   }
+
 
 
 .logo img{

@@ -2,7 +2,7 @@
     
     @media screen and (max-width:1024px){
         .full-width{
-            width: 130%;
+            width: 100%;
             height: fit-content;
         }
         
